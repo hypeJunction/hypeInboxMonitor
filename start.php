@@ -48,11 +48,6 @@ function hypeapps_inbox_monitor_flag_suspicious_messages($event, $type, $entity)
 		return;
 	}
 
-	if ($entity->fromId == $entity->owner_guid) {
-		// this is a copy stored in sent messages
-		return;
-	}
-
 	$policy = elgg_get_plugin_setting('policy', 'hypeInboxMonitor', 'nothing');
 
 	$blacklist = hypeapps_inbox_monitor_get_blacklist();
