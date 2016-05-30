@@ -4,9 +4,9 @@
 	"license": "GPL-2.0",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:hypeJunction/Elgg-hypeInboxMonitor.git",
+		"url": "git@github.com:hypeJunction/hypeInboxMonitor.git",
 		"owner": "hypeJunction",
-		"repo": "Elgg-hypeInboxMonitor"
+		"repo": "hypeInboxMonitor"
 	},
 	"devDependencies": {
 		"curlrequest": "^0.3.10",
