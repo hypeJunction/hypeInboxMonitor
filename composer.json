@@ -1,0 +1,26 @@
+{
+	"name": "hypejunction/hypeinboxmonitor",
+	"version": "0.0.0",
+	"type": "elgg-plugin",
+	"description": "Monitor user to user messages",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "messages", "review"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	 "extra": {
+        "installer-name": "hypeInboxMonitor"
+    },
+	"require": {
+		"php": ">=5.5",
+		"composer/installers": "~1.0",
+		"jcrowe/bad-word-filter": "2.0"
+	}
+}
+
