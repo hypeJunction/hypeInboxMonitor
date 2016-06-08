@@ -25,12 +25,13 @@ function hypeapps_inbox_monitor_init() {
 
 	elgg_extend_view('object/messages', 'object/messages/warning', 400);
 
-	elgg_register_menu_item('admin', array(
+	elgg_register_menu_item('page', array(
 		'name' => 'inbox-monitor',
 		'href' => "admin/inbox/monitor",
 		'text' => elgg_echo('admin:inbox:monitor'),
 		'section' => 'administer',
 		'parent_name' => 'administer_utilities',
+		'context' => array('admin'),
 	));
 }
 
